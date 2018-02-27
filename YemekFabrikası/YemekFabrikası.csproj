@@ -117,6 +117,61 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\bg.png" />
+    <Content Include="Assets\images\blank.gif" />
+    <Content Include="Assets\images\blockquote.png" />
+    <Content Include="Assets\images\fancybox-x.png" />
+    <Content Include="Assets\images\fancybox-y.png" />
+    <Content Include="Assets\images\fancybox.png" />
+    <Content Include="Assets\images\fancy_close.png" />
+    <Content Include="Assets\images\fancy_loading.png" />
+    <Content Include="Assets\images\fancy_nav_left.png" />
+    <Content Include="Assets\images\fancy_nav_right.png" />
+    <Content Include="Assets\images\fancy_shadow_e.png" />
+    <Content Include="Assets\images\fancy_shadow_n.png" />
+    <Content Include="Assets\images\fancy_shadow_ne.png" />
+    <Content Include="Assets\images\fancy_shadow_nw.png" />
+    <Content Include="Assets\images\fancy_shadow_s.png" />
+    <Content Include="Assets\images\fancy_shadow_se.png" />
+    <Content Include="Assets\images\fancy_shadow_sw.png" />
+    <Content Include="Assets\images\fancy_shadow_w.png" />
+    <Content Include="Assets\images\fancy_title_left.png" />
+    <Content Include="Assets\images\fancy_title_main.png" />
+    <Content Include="Assets\images\fancy_title_over.png" />
+    <Content Include="Assets\images\fancy_title_right.png" />
+    <Content Include="Assets\images\gallery\1.jpeg" />
+    <Content Include="Assets\images\gallery\2.jpg" />
+    <Content Include="Assets\images\gallery\3.jpeg" />
+    <Content Include="Assets\images\gallery\4.jpg" />
+    <Content Include="Assets\images\gallery\5.jpeg" />
+    <Content Include="Assets\images\gallery\6.jpg" />
+    <Content Include="Assets\images\gallery\7.jpeg" />
+    <Content Include="Assets\images\gallery\8.jpg" />
+    <Content Include="Assets\images\home\1.jpg" />
+    <Content Include="Assets\images\home\2.jpg" />
+    <Content Include="Assets\images\home\3.jpg" />
+    <Content Include="Assets\images\home\4.jpg" />
+    <Content Include="Assets\images\label.png" />
+    <Content Include="Assets\images\loading.gif" />
+    <Content Include="Assets\images\menu\pizza.jpeg" />
+    <Content Include="Assets\images\menu\pizza2.jpeg" />
+    <Content Include="Assets\images\menu\pizza3.jpeg" />
+    <Content Include="Assets\images\menu\pizza4.jpeg" />
+    <Content Include="Assets\images\next.png" />
+    <Content Include="Assets\images\noise.png" />
+    <Content Include="Assets\images\pause.png" />
+    <Content Include="Assets\images\play.png" />
+    <Content Include="Assets\images\prev.png" />
+    <Content Include="Assets\images\social.png" />
+    <Content Include="Assets\images\star_empty.png" />
+    <Content Include="Assets\images\star_full.png" />
+    <Content Include="Assets\images\star_half_full.png" />
+    <Content Include="Assets\images\tip-yellowsimple_arrows.gif" />
+    <Content Include="Assets\scripts\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="Assets\scripts\jquery.pikachoose.js" />
+    <Content Include="Assets\styles\base.css" />
+    <Content Include="Assets\styles\jquery.fancybox-1.3.4.css" />
+    <Content Include="Assets\styles\style.css" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
@@ -125,6 +180,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\GirisController.cs" />
+    <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -136,7 +192,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Views\Shared\_LayoutPage.cshtml" />
     <Content Include="Views\Giris\Index.cshtml" />
+    <Content Include="Assets\styles\Lobster_1.3-webfont.eot" />
+    <Content Include="Assets\styles\Lobster_1.3-webfont.ttf" />
+    <Content Include="Assets\styles\Lobster_1.3-webfont.woff" />
+    <Content Include="Views\Menu\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
